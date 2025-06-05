@@ -1,0 +1,28 @@
+/* src/index.css - アプリ全体の基本スタイル */
+
+/* ページ全体の基本設定 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* コードを表示する時のフォント */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* スクロールを滑らかにする */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 全ての要素のボックスサイズを統一 */
+* {
+  box-sizing: border-box;
+}
